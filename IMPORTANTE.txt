@@ -1,0 +1,21 @@
+NOTAS: Si es la primera vez que ejecuta el script para Teoria del Caos debe ejecutar las siguientes lineas una sola vez
+para instalar las librerias necesarias. Las indicaciones tambien estan dentro del codigo como comentarios.
+
+Se necesita intalar devtools previamente
+	library(devtools)
+	devtools :: install_github ("antoniofabio/RTisean", subdir = "RTisean")
+
+
+#Instalado todo lo anterior y las librerias iniciales que estan inicialmente en dentro de app.R estara listo para
+iniciar con la ejecucion de la aplicacion shiny
+
+
+
+#Como funciona la libreria RTisean 
+Si solo va usar la aplicacion Shiny lo siguiente no es necesario:
+
+Si quiere usar la libreria Rtisean en un script aparte debe ejecutar setTISEApath y poner la direccion de la
+carpeta bin donde estan los arhivos .exe de TISEAN
+library(RTisean)
+setTISEANpath(path = "TISEAN/Tisean_3.0.0/bin")
+Este proceso solo se lo hace una vez, el registro se guarda de manera automatica para futuras sesiones r
