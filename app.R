@@ -5,7 +5,7 @@ library(modeest)#para estadistico moda
 library(moments)#para estadistico Asimetri y curtosis
 library(openxlsx)#para lectura de archivos xlsx
 library(tidyverse)#para manejo de data frame
-library(RTisean)#para predicciones con teoria del caos
+#library(RTisean)#para predicciones con teoria del caos
 library(tseriesChaos)#para parametros de teoria del caos
 library(Metrics)#para calcular medidas de evaluacion del pronostico
 library(DescTools)#
@@ -15,7 +15,7 @@ library(RSNNS)#para entrenar redes elman
 library(quantmod)
 library(ggplot2)
 
-setTISEANpath(path = "TISEAN_Linux/Tisean_3.0.0/bin")
+#setTISEANpath(path = "TISEAN_Linux/Tisean_3.0.0/bin")
 #setTISEANpath(path = "TISEAN_Windows/Tisean_3.0.0/bin")
 
 {#Nombres de la Variables
