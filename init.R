@@ -8,6 +8,7 @@ my_packages = c("shiny", "shinycssloaders", "modeest", "moments", "openxlsx",
                 "forecast", "tools", "RSNNS", "quantmod", "ggplot2")
 # install from local archive
 install.packages("localpkgs/RTisean.tar.gz", repos=NULL, type="source")
+install.packages("localpkgs/Rnlminb2_2110.79.tar.gz", repos=NULL, type="source")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
