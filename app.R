@@ -5,6 +5,7 @@ library(modeest)#para estadistico moda
 library(moments)#para estadistico Asimetri y curtosis
 library(openxlsx)#para lectura de archivos xlsx
 library(tidyverse)#para manejo de data frame
+library(tcltk)
 #library(RTisean)#para predicciones con teoria del caos
 library(Rnlminb2)
 library(tseriesChaos)#para parametros de teoria del caos
