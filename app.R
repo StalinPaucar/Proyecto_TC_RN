@@ -7,7 +7,7 @@ library(openxlsx)#para lectura de archivos xlsx
 library(tidyverse)#para manejo de data frame
 #library(tcltk)
 library(RTisean)#para predicciones con teoria del caos
-library(Rnlminb2)
+#library(Rnlminb2)
 library(tseriesChaos)#para parametros de teoria del caos
 library(Metrics)#para calcular medidas de evaluacion del pronostico
 library(DescTools)#
@@ -17,6 +17,10 @@ library(RSNNS)#para entrenar redes elman
 library(quantmod)
 library(ggplot2)
 
+head(iris)
+#file.info("TISEAN_Linux/Tisean_3.0.0/bin")
+file.info("TISEAN_Linux/Tisean_3.0.0/bin")$mode
+#setTISEANpath(path = "bin")
 #setTISEANpath(path = "TISEAN_Linux/Tisean_3.0.0/bin")
 #setTISEANpath(path = "TISEAN_Windows/Tisean_3.0.0/bin")
 

@@ -1,0 +1,14 @@
+name: Proyecto_TC_RN
+title: Proyecto_TC_RN
+username:
+account: franklin-paucar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5451236
+bundleId: 5474525
+url: https://franklin-paucar.shinyapps.io/Proyecto_TC_RN/
+when: 1642360503.74237
+lastSyncTime: 1642360503.74237
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|Aptfile|IMPORTANTE.txt|init.R|localpkgs/Rnlminb2_2110.79.tar.gz|localpkgs/RTisean.tar.gz|README.md|run.R
