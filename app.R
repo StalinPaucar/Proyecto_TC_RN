@@ -17,11 +17,12 @@ library(RSNNS)#para entrenar redes elman
 library(quantmod)
 library(ggplot2)
 
-head(iris)
+
 #file.info("TISEAN_Linux/Tisean_3.0.0/bin")
-file.info("TISEAN_Linux/Tisean_3.0.0/bin")$mode
+#file.info("TISEAN_Linux/Tisean_3.0.0/bin")$mode
 #setTISEANpath(path = "bin")
-#setTISEANpath(path = "TISEAN_Linux/Tisean_3.0.0/bin")
+
+setTISEANpath(path = "TISEAN_Linux/Tisean_3.0.0/bin")
 #setTISEANpath(path = "TISEAN_Windows/Tisean_3.0.0/bin")
 
 {#Nombres de la Variables
